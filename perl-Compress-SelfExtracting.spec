@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Compress
-%define	pnam	SelfExtracting
+%define		pdir	Compress
+%define		pnam	SelfExtracting
 Summary:	Compress::SelfExtracting - create compressed scripts
 Summary(pl):	Compress::SelfExtracting - tworzenie samorozpakowuj±cych siê skryptów
 Name:		perl-Compress-SelfExtracting
