@@ -5,7 +5,7 @@ Summary:	Compress::SelfExtracting - create compressed scripts
 Summary(pl):	Compress::SelfExtracting - tworzenie samorozpakowuj±cych siê skryptów
 Name:		perl-Compress-SelfExtracting
 Version:	0.04
-Release:	2
+Release:	3
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
