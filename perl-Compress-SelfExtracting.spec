@@ -1,12 +1,13 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Compress
 %define		pnam	SelfExtracting
-Summary:	Compress::SelfExtracting Perl module
-Summary(pl):	Modu³ Perla Compress::SelfExtracting
+Summary:	Compress::SelfExtracting - create compressed scripts
+Summary(pl):	Compress::SelfExtracting - tworzenie samorozpakowuj±cych siê skryptów
 Name:		perl-Compress-SelfExtracting
 Version:	0.04
 Release:	2
-License:	Artistic or GPL
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tgz
 # Source0-md5:	e1151e0602e01f88e6c8ae1f4ea70b59
