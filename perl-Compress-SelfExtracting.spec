@@ -5,14 +5,14 @@ Summary:	Compress::SelfExtracting Perl module
 Summary(pl):	Modu³ Perla Compress::SelfExtracting
 Name:		perl-Compress-SelfExtracting
 Version:	0.04
-Release:	1
+Release:	2
 License:	Artistic or GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tgz
 BuildRequires:	perl >= 5.6
 BuildRequires:	perl-Digest-MD5 >= 0.01
 BuildRequires:	perl-Filter-Simple
-BuildRequires:	rpm-perlprov >= 3.0.3-16
+BuildRequires:	rpm-perlprov >= 4.0.2-104
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
