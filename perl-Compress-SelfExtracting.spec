@@ -8,7 +8,7 @@ Version:	0.04
 Release:	1
 License:	Artistic or GPL
 Group:		Development/Languages/Perl
-Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tgz
+Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tgz
 BuildRequires:	perl >= 5.6
 BuildRequires:	perl-Digest-MD5 >= 0.01
 BuildRequires:	perl-Filter-Simple
