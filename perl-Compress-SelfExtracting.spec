@@ -5,7 +5,7 @@ Summary:	Compress::SelfExtracting Perl module
 Summary(pl):	Modu³ Perla Compress::SelfExtracting
 Name:		perl-Compress-SelfExtracting
 Version:	0.03
-Release:	1
+Release:	2
 License:	Artistic or GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tgz
