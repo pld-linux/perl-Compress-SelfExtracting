@@ -5,16 +5,18 @@ Summary:	Compress::SelfExtracting - create compressed scripts
 Summary(pl):	Compress::SelfExtracting - tworzenie samorozpakowuj±cych siê skryptów
 Name:		perl-Compress-SelfExtracting
 Version:	0.04
-Release:	3
+Release:	4
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tgz
+Source0:	http://www.cpan.org/modules/by-module/Compress/%{pdir}-%{pnam}-%{version}.tgz
 # Source0-md5:	e1151e0602e01f88e6c8ae1f4ea70b59
-BuildRequires:	perl-devel >= 1:5.8.0
+URL:		http://search.cpan.org/dist/Compress-SelfExtracting/
 BuildRequires:	perl-Digest-MD5 >= 0.01
-BuildRequires:	perl-Filter-Simple
+BuildRequires:	perl-Filter-Simple >= 0.01
+BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
+Requires:	perl-dirs >= 1.0-11
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -50,5 +52,6 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes README
-%{perl_vendorlib}/Compress
+%{perl_vendorlib}/Compress/SelfExtracting.pm
+%{perl_vendorlib}/Compress/SelfExtracting
 %{_mandir}/man3/*
