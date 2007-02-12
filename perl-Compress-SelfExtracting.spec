@@ -2,7 +2,7 @@
 %define		pdir	Compress
 %define		pnam	SelfExtracting
 Summary:	Compress::SelfExtracting - create compressed scripts
-Summary(pl):	Compress::SelfExtracting - tworzenie samorozpakowuj±cych siê skryptów
+Summary(pl.UTF-8):   Compress::SelfExtracting - tworzenie samorozpakowujÄ…cych siÄ™ skryptÃ³w
 Name:		perl-Compress-SelfExtracting
 Version:	0.04
 Release:	4
@@ -26,11 +26,11 @@ self-extracting scripts using a variety of compression algorithms.
 These scripts will then run on any system with a recent version of
 Perl.
 
-%description -l pl
-Modu³ Compress::SelfExtracting pozwala na tworzenie czysto perlowych
-samorozpakowuj±cych siê skryptów przy u¿yciu ró¿nych algorytmów
-kompresji. Te skrypty bêd± dzia³a³y na ka¿dym systemie ze wspó³czesn±
-wersj± Perla.
+%description -l pl.UTF-8
+ModuÅ‚ Compress::SelfExtracting pozwala na tworzenie czysto perlowych
+samorozpakowujÄ…cych siÄ™ skryptÃ³w przy uÅ¼yciu rÃ³Å¼nych algorytmÃ³w
+kompresji. Te skrypty bÄ™dÄ… dziaÅ‚aÅ‚y na kaÅ¼dym systemie ze wspÃ³Å‚czesnÄ…
+wersjÄ… Perla.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
